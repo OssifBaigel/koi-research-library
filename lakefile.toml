@@ -1,0 +1,17 @@
+name = "KoiResearch"
+version = "0.1.0"
+defaultTargets = ["KoiResearch", "Challenge", "Solution"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "53dad9ed98be8416b6ca1111e55a03de4303231f"
+
+[[lean_lib]]
+name = "KoiResearch"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"
