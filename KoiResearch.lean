@@ -1,6 +1,4 @@
-/-
-Koi Research shared Lean 4 library (epoch-2026-11).
-Every file under `KoiResearch/epoch_2026_11/` is kernel-verified by `lake comparator`
-and released under Apache-2.0.
--/
-import Mathlib
+﻿import Mathlib
+import KoiResearch.epoch_2026_11.cal_sqrt2_irrational
+import KoiResearch.epoch_2026_11.cal_primes_unbounded
+import KoiResearch.epoch_2026_11.cal_amgm2
